@@ -3,8 +3,8 @@
 
 <head>
 	<title>Max Schmelling || Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/reset.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
 </head>
 
 <body>
@@ -18,12 +18,49 @@
 		</ul>
 	</header>
 	
-	<!-- about me section -->
-	<div id="about">
+	<!-- contact section -->
+	<div id="contact">
+		<h1>Contact</h1>
+		<table>
+			<tr>
+				<th>
+					<label for="name">Name</label>
+                </th>
+                <td>
+                    <!-- The <input name=""> is used to let the server give the input the corresponding name -->
+                    <input type="text" name="name" id="name" value="">
+				</td>
+			</tr>
+			<tr>
+                <th>
+                    <label for="email">Email</label>
+                </th>
+                <td>
+                    <input type="text" name="email" id="email" value="">
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    <label for="message">Message</label>
+                </th>
+                <td>
+                    <textarea type="text" name="message" id="message"></textarea>
+                </td>
+            </tr>
+		</table>
+		<input type="submit" value="Send">
 	</div>
 	
 	<!-- connect with me section -->
-	<div id="connect"></div>
+	<div id="connect">
+		<h1>Connect With Me</h1>
+		<ul>
+			<li>LinkedIn</li>
+			<li>GitHub</li>
+			<li>Stck Overflow</li>
+		</ul>
+	</div>
 
 	<!-- copyright section -->
 	<footer id="copyright">Copyright 2017 Maxwell Schmelling</footer>
