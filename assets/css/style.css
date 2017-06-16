@@ -1,5 +1,124 @@
+#name {
+	color: white;
+	font-size: 30px;
+	text-decoration: bold;
+	padding: 16px;
+	text-align: center;
+	font-family: 'News Cycle', sans-serif;
+}
+
+/* navbar */
+#navbar {
+	display: table;
+	margin: 0 auto;
+	position: relative;
+}
+
 header {
-	color: blue;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #333333;
+	width: 100%;
+}
+
+header li {
+	display: inline-block; 	
+	float: left;
+}
+
+header li a {
+	color: white;
+	text-align: center;
+	padding: 16px;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: 'News Cycle', sans-serif;
+	position: relative;
+	float: left;
+	display: block;
+}
+
+header li a:hover {
+	background-color: #111111;
+}
+/* end navbar */
+
+/* about Me */
+#about h1 {
+	padding: 16px;
+	text-align: center;
 	font-size: 24px;
 	text-decoration: bold;
+	font-family: 'News Cycle', sans-serif;
 }
+
+#about p {
+	font-family: 'News Cycle', sans-serif;
+	width: 50%;
+	align-content: center;
+	position: relative;
+	left: 25%;
+}
+
+#profile-pic {
+	float: left;
+	padding-right: 20px;
+}
+/* end about me */
+
+/* connect */
+#connect h1 {
+	clear: both;
+	padding: 16px;
+	text-align: center;
+	font-size: 24px;
+	text-decoration: bold;
+	font-family: 'News Cycle', sans-serif;
+}
+
+#connect {
+	clear: both;
+	list-style-type: none;
+	overflow: hidden;
+	width: 100%;
+}
+
+#connect div {
+	display: table;
+	margin: auto 0;
+	position: relative;
+}
+
+#connect li {
+	display: inline-block; 	
+	float: left;	
+}
+
+#connect li img {bhh 
+	position: relative;
+	float: left;
+	display: block;	
+}
+/* end connect */
+
+/* portfolio */
+#portfolio h1 {
+	padding: 16px;
+	text-align: center;
+	font-size: 24px;
+	text-decoration: bold;
+	font-family: 'News Cycle', sans-serif;
+}
+/*end portfolio */
+
+/* contact */
+#contact h1 {
+	padding: 16px;
+	text-align: center;
+	font-size: 24px;
+	text-decoration: bold;
+	font-family: 'News Cycle', sans-serif;
+}
+/*end contact */
+
+
